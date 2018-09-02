@@ -95,8 +95,8 @@ public class TelaSoma extends javax.swing.JFrame {
         // TODO add your handling code here:
         int n1 = Integer.parseInt(txtValorUm.getText()); //pegue o texto um e converta para int
         int n2 = Integer.parseInt(txtValorDois.getText()); //pegue o texto dois e converta para int
-        int s = n1 + n2;
-        lblResultado.setText(Integer.toString(s));
+        int s = n1 + n2; //Somando
+        lblResultado.setText(Integer.toString(s)); //Exibindo resultado no label Resultado
         
     }//GEN-LAST:event_btnCalcularActionPerformed
 
